@@ -1,0 +1,23 @@
+# AI Assistants & Agents
+.agents/
+.agent/
+_agents/
+_agent/
+.gemini/
+.claude/
+.cursor/
+*.system_generated/
+
+# .NET & Visual Studio build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.idea/
+*.swp
+*~

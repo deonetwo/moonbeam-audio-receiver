@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MoonbeamAudioReceiver/MoonbeamAudioReceiver.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MoonbeamAudioReceiver.Tests/MoonbeamAudioReceiver.Tests.csproj" />
+  </Folder>
+</Solution>
