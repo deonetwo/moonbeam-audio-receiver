@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Release tag (e.g. v1.0.0)'
+        required: false
+        default: 'v1.0.0'
 
 jobs:
   build-and-release:
@@ -38,7 +44,8 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: Moonbeam Audio Receiver ${{ github.ref_name }}
+          tag_name: ${{ github.event.inputs.tag_name || github.ref_name }}
+          name: Moonbeam Audio Receiver ${{ github.event.inputs.tag_name || github.ref_name }}
           files: |
             ./MoonbeamAudioReceiver-win-x64.zip
             ./publish/MoonbeamAudioReceiver.exe
