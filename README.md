@@ -98,7 +98,8 @@ dotnet publish src/MoonbeamAudioReceiver/MoonbeamAudioReceiver.csproj `
   -r win-x64 `
   --self-contained true `
   -p:PublishSingleFile=true `
-  -p:IncludeNativeLibrariesForSelfExtract=true
+  -p:IncludeNativeLibrariesForSelfExtract=true `
+  -p:EnableCompressionInSingleFile=true
 ```
 
 The compiled binary will be generated at:
