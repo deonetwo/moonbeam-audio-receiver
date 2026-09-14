@@ -104,7 +104,7 @@ dotnet publish src/MoonbeamAudioReceiver/MoonbeamAudioReceiver.csproj `
 
 The compiled binary will be generated at:
 ```
-src/MoonbeamAudioReceiver/bin/Release/net10.0-windows10.0.22621.0/win-x64/publish/MoonbeamAudioReceiver.exe
+src/MoonbeamAudioReceiver/bin/Release/net10.0-windows10.0.22621.0/win-x64/publish/Moonbeam Audio Receiver.exe
 ```
 
 ---

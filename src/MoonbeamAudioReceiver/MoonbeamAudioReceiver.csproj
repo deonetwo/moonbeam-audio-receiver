@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <RootNamespace>MoonbeamAudioReceiver</RootNamespace>
-    <AssemblyName>MoonbeamAudioReceiver</AssemblyName>
+    <AssemblyName>Moonbeam Audio Receiver</AssemblyName>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Assets\app.ico</ApplicationIcon>
     <LangVersion>latest</LangVersion>

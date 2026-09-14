@@ -15,7 +15,7 @@
         WindowStartupLocation="CenterScreen"
         ExtendsContentIntoTitleBar="True"
         WindowBackdropType="Mica"
-        Icon="pack://application:,,,/MoonbeamAudioReceiver;component/Assets/app.ico">
+        Icon="/Assets/app.ico">
 
     <Window.Resources>
         <converters:BooleanToVisibilityConverter x:Key="BoolToVis" />
@@ -41,7 +41,7 @@
         <!-- System Tray Icon -->
         <tb:TaskbarIcon x:Name="TrayIcon"
                         ToolTipText="Moonbeam Audio Receiver"
-                        IconSource="pack://application:,,,/MoonbeamAudioReceiver;component/Assets/app.ico"
+                        IconSource="/Assets/app.ico"
                         TrayMouseDoubleClick="TrayIcon_TrayMouseDoubleClick">
             <tb:TaskbarIcon.ContextMenu>
                 <ContextMenu>
@@ -59,7 +59,7 @@
                      ShowMinimize="True">
             <ui:TitleBar.Header>
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
-                    <Image Source="pack://application:,,,/MoonbeamAudioReceiver;component/Assets/app_logo.png"
+                    <Image Source="/Assets/app_logo.png"
                            Width="18" Height="18"
                            Margin="0,0,8,0"
                            VerticalAlignment="Center" />
